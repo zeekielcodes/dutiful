@@ -8,7 +8,7 @@ import { IoMdCheckmark } from "react-icons/io";
 
 export default function page() {
   return (
-    <div className="bg-[#FCFAFF]">
+    <div className="bg-[#FCFAFF] w-full">
       <div className="min-h-[200px] bg-white px-4 py-6 md:py-8 md:px-8 lg:px-20 flex justify-center items-center">
         <div className="w-full md:max-w-[888px] text-center">
           <h1 className="font-recoleta-alt text-[30px] lg:text-[36px] text-[#1E1E4B]">
@@ -55,92 +55,94 @@ export default function page() {
         >
           Features Overview
         </h3>
-        <div className="overflow-x-scroll scroll w-full">
-          <table className="w-[250%] md:w-full features overflow-hidden">
-            <thead>
-              <td className="text-[#656565] text-base md:text-[24px] p-3">
-                Features & Services
-              </td>
-              <td className="p-3">
-                <div>
-                  <p className="text-[18px] md:text-[22px] font-[500] mb-6">
-                    Basic
-                  </p>
-                  <button className="w-full h-[51px] bg-main text-white rounded shadow-xl">
-                    Get started
-                  </button>
-                </div>
-              </td>
-              <td className="p-3">
-                <div>
-                  <p className="text-[18px] md:text-[22px] font-[500] mb-6">
-                    Standard
-                  </p>
-                  <button className="w-full h-[51px] bg-main text-white rounded shadow-xl">
-                    Get started
-                  </button>
-                </div>
-              </td>
-              <td className="p-3">
-                <div>
-                  <p className="text-[18px] md:text-[22px] font-[500] mb-6">
-                    Premium
-                  </p>
-                  <button className="w-full h-[51px] bg-main text-white rounded shadow-xl">
-                    Get started
-                  </button>
-                </div>
-              </td>
-            </thead>
-            <tbody>
-              {features.map((feat, index) => (
-                <tr key={index} className="text-small md:text-base">
-                  <td className="text-[#656565] font-[450] p-3">
-                    {feat.feature}
-                  </td>
-                  <td className="p-3">
-                    <div className="w-full flex justify-center items-center">
-                      {typeof feat.basic === "boolean" ? (
-                        feat.basic ? (
-                          <IoMdCheckmark className="text-[#AC64CE]" />
+        <div className="w-full">
+          <div className="overflow-x-scroll scroll w-full">
+            <table className="w-[300%] md:w-full features overflow-hidden">
+              <thead>
+                <td className="text-[#656565] text-base md:text-[24px] p-3">
+                  Features & Services
+                </td>
+                <td className="p-3">
+                  <div>
+                    <p className="text-[18px] md:text-[22px] font-[500] mb-6">
+                      Basic
+                    </p>
+                    <button className="w-full h-[51px] bg-main text-white rounded shadow-xl">
+                      Get started
+                    </button>
+                  </div>
+                </td>
+                <td className="p-3">
+                  <div>
+                    <p className="text-[18px] md:text-[22px] font-[500] mb-6">
+                      Standard
+                    </p>
+                    <button className="w-full h-[51px] bg-main text-white rounded shadow-xl">
+                      Get started
+                    </button>
+                  </div>
+                </td>
+                <td className="p-3">
+                  <div>
+                    <p className="text-[18px] md:text-[22px] font-[500] mb-6">
+                      Premium
+                    </p>
+                    <button className="w-full h-[51px] bg-main text-white rounded shadow-xl">
+                      Get started
+                    </button>
+                  </div>
+                </td>
+              </thead>
+              <tbody>
+                {features.map((feat, index) => (
+                  <tr key={index} className="text-small md:text-base">
+                    <td className="text-[#656565] font-[450] p-3">
+                      {feat.feature}
+                    </td>
+                    <td className="p-3">
+                      <div className="w-full flex justify-center items-center">
+                        {typeof feat.basic === "boolean" ? (
+                          feat.basic ? (
+                            <IoMdCheckmark className="text-[#AC64CE]" />
+                          ) : (
+                            <RxCross2 className="text-[#9E9E9E]" />
+                          )
                         ) : (
-                          <RxCross2 className="text-[#9E9E9E]" />
-                        )
-                      ) : (
-                        feat.basic
-                      )}
-                    </div>
-                  </td>
-                  <td className="p-3">
-                    <div className="w-full flex justify-center items-center">
-                      {typeof feat.standard === "boolean" ? (
-                        feat.standard ? (
-                          <IoMdCheckmark className="text-[#AC64CE]" />
+                          feat.basic
+                        )}
+                      </div>
+                    </td>
+                    <td className="p-3">
+                      <div className="w-full flex justify-center items-center">
+                        {typeof feat.standard === "boolean" ? (
+                          feat.standard ? (
+                            <IoMdCheckmark className="text-[#AC64CE]" />
+                          ) : (
+                            <RxCross2 className="text-[#9E9E9E]" />
+                          )
                         ) : (
-                          <RxCross2 className="text-[#9E9E9E]" />
-                        )
-                      ) : (
-                        feat.standard
-                      )}
-                    </div>
-                  </td>
-                  <td className="p-3">
-                    <div className="w-full flex justify-center items-center">
-                      {typeof feat.premium === "boolean" ? (
-                        feat.premium ? (
-                          <IoMdCheckmark className="text-[#AC64CE]" />
+                          feat.standard
+                        )}
+                      </div>
+                    </td>
+                    <td className="p-3">
+                      <div className="w-full flex justify-center items-center">
+                        {typeof feat.premium === "boolean" ? (
+                          feat.premium ? (
+                            <IoMdCheckmark className="text-[#AC64CE]" />
+                          ) : (
+                            <RxCross2 className="text-[#9E9E9E]" />
+                          )
                         ) : (
-                          <RxCross2 className="text-[#9E9E9E]" />
-                        )
-                      ) : (
-                        feat.premium
-                      )}
-                    </div>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+                          feat.premium
+                        )}
+                      </div>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </div>
