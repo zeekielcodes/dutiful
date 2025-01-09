@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Basic",
+    "price": 0,
+    "features": [
+      "Access to dashboard",
+      "Add up to 2 businesses",
+      "Add up to 2 products/services",
+      "Add up to 2 Images",
+      "Unlimited keywords",
+      "Display service hours and prices",
+      "Display address, contact and email",
+      "Instant chat",
+      "Reviews and ratings",
+      "Profile visibility",
+      "Instant notifications",
+      "Display website and social network",
+      "Quotes",
+      "Bookmarks"
+    ]
+  },
+  {
+    "name": "Standard",
+    "price": 20000,
+    "features": [
+      "Access to dashboard",
+      "Add up to 2 businesses",
+      "Add up to 2 products/services",
+      "Add up to 2 Images",
+      "Unlimited keywords",
+      "Display service hours and prices",
+      "Display address, contact and email",
+      "Instant chat",
+      "Reviews and ratings",
+      "Profile visibility",
+      "Instant notifications",
+      "Display website and social network",
+      "Quotes",
+      "Bookmarks",
+      "Number of  profile views",
+      "Verified badge (purple)",
+      "Accept & Sell appointment",
+      "Latest offers"
+    ]
+  },
+  {
+    "name": "Premium",
+    "price": 30000,
+    "features": [
+      "Access to dashboard",
+      "Add up to 2 businesses",
+      "Add up to 2 products/services",
+      "Add up to 2 Images",
+      "Unlimited keywords",
+      "Display service hours and prices",
+      "Display address, contact and email",
+      "Instant chat",
+      "Reviews and ratings",
+      "Profile visibility",
+      "Instant notifications",
+      "Display website and social network",
+      "Quotes",
+      "Bookmarks",
+      "Number of  profile views",
+      "Verified badge (purple)",
+      "Accept & Sell appointment",
+      "Latest offers",
+      "24/7 service and support"
+    ]
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "feature": "Access to dashboard",
+    "basic": true,
+    "standard": true,
+    "premium": true
+  },
+  {
+    "feature": "No. of business listings",
+    "basic": "2 businesses",
+    "standard": "6 businesses",
+    "premium": "10 businesses"
+  },
+  {
+    "feature": "No. of products/services",
+    "basic": 2,
+    "standard": 6,
+    "premium": 10
+  },
+  {
+    "feature": "No. of Images",
+    "basic": 2,
+    "standard": 4,
+    "premium": 6
+  },
+  {
+    "feature": "Keywords",
+    "basic": true,
+    "standard": true,
+    "premium": true
+  },
+  {
+    "feature": "Display service hours & prices",
+    "basic": true,
+    "standard": true,
+    "premium": true
+  },
+  {
+    "feature": "Display address, email & contact",
+    "basic": true,
+    "standard": true,
+    "premium": true
+  },
+  {
+    "feature": "Instant chat",
+    "basic": true,
+    "standard": true,
+    "premium": true
+  },
+  {
+    "feature": "Reviews & ratings",
+    "basic": true,
+    "standard": true,
+    "premium": true
+  },
+  {
+    "feature": "Profile visibility",
+    "basic": true,
+    "standard": true,
+    "premium": true
+  },
+  {
+    "feature": "Instant notifications",
+    "basic": true,
+    "standard": true,
+    "premium": true
+  },
+  {
+    "feature": "Display website & social network",
+    "basic": true,
+    "standard": true,
+    "premium": true
+  },
+  {
+    "feature": "Quotes",
+    "basic": true,
+    "standard": true,
+    "premium": true
+  },
+  {
+    "feature": "Bookmarks",
+    "basic": true,
+    "standard": true,
+    "premium": true
+  },
+  {
+    "feature": "Profile views",
+    "basic": false,
+    "standard": true,
+    "premium": true
+  },
+  {
+    "feature": "Verified badge",
+    "basic": false,
+    "standard": "Purple",
+    "premium": "Gold"
+  },
+  {
+    "feature": "Latest offers",
+    "basic": false,
+    "standard": true,
+    "premium": true
+  },
+  {
+    "feature": "Accept & sell appointment",
+    "basic": false,
+    "standard": true,
+    "premium": true
+  },
+  {
+    "feature": "24/7  support",
+    "basic": false,
+    "standard": false,
+    "premium": true
+  }
+]
