@@ -10,7 +10,7 @@ export default function page() {
   return (
     <div className="bg-[#FCFAFF]">
       <div className="min-h-[200px] bg-white px-4 py-6 md:py-8 md:px-8 lg:px-20 flex justify-center items-center">
-        <div className="max-w-[888px] text-center">
+        <div className="w-full md:max-w-[888px] text-center">
           <h1 className="font-recoleta-alt text-[30px] lg:text-[36px] text-[#1E1E4B]">
             Plans to Suit Your Business Budget
           </h1>
