@@ -26,7 +26,7 @@ export default function Nav() {
             src="/logo.png"
             height={50}
             width={120}
-            className="object-contain h-[40px] w-auto md:h-auto"
+            className="object-contain h-[40px] w-auto md:w-[120px] md:h-auto"
             alt="Dutiful"
           />
         </Link>
